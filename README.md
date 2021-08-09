@@ -41,4 +41,5 @@ Es sh realizará los siguientes pasos:
 
 ![Captura de pantalla de 2021-08-09 18-41-45](https://user-images.githubusercontent.com/1924809/128787726-54e8829d-1273-457d-9a45-c5c1bf857705.png)
 
+Tener en cuenta que se realizó una modificación al código para que mostrara el hostname del pod que está atendiendo la petición con el fin de realizar pruebas de downtime.
 #
