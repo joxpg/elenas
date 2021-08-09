@@ -33,7 +33,7 @@ Es sh realizará los siguientes pasos:
 
 - Irá a cada aplicación (Front end y backend) y realizará la construcciòn de los contenedores
 - Publicará los contedores en docker hub
-- Realizará la aplicación de los manifiestos de Kubernetes donde se crea Namesapce, deployments, service y secretos necesarios para poner a correr y disponibilizar al publico la aplicación.
+- Realizará la aplicación de los manifiestos de Kubernetes que estan ubicados en cada proyecto en la carpeta config/k8s donde se crea Namesapce, deployments, service y secretos necesarios para poner a correr y disponibilizar al publico la aplicación.
 - Una vez todo esté andando se puede visualizar en K8S que las aplicaciones están corriendo con el comando
    ``` kubectl get pods -n backend-test ```
    ``` kubectl get pods -n frontend-test ```
